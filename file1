@@ -1,0 +1,90 @@
+class JavaExample {
+    public static void main(String[] args) {
+    	
+    	short num;
+    	
+    	num = 150;
+    	System.out.println(num);
+    }
+}
+Output:
+
+150
+The byte data type couldn’t hold the value 150 but a short data type can because it has a wider range.
+
+long:
+Used when int is not large enough to hold the value, it has wider range than int data type, ranging from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+size: 8 bytes
+Default value: 0
+Example:
+
+class JavaExample {
+    public static void main(String[] args) {
+    	
+    	long num = -12332252626L;
+    	System.out.println(num);
+    }
+}
+Output:
+
+-12332252626
+double: Sufficient for holding 15 decimal digits
+size: 8 bytes
+Example:
+
+class JavaExample {
+    public static void main(String[] args) {
+    	
+    	double num = -42937737.9d;
+    	System.out.println(num);
+    }
+}
+Output:
+
+-4.29377379E7
+float: Sufficient for holding 6 to 7 decimal digits
+size: 4 bytes
+
+class JavaExample {
+    public static void main(String[] args) {
+    	
+    	float num = 19.98f;
+    	System.out.println(num);
+    }
+}
+Output:
+
+19.98
+boolean: holds either true of false.
+
+class JavaExample {
+    public static void main(String[] args) {
+    	
+    	boolean b = false;
+    	System.out.println(b);
+    }
+}
+Output:
+
+false
+char: holds characters.
+size: 2 bytes
+
+class JavaExample {
+    public static void main(String[] args) {
+    	
+    	char ch = 'Z';
+    	System.out.println(ch);
+    }
+}
+Output:
+
+Z
+Literals in Java
+A literal is a fixed value that we assign to a variable in a Program.
+
+int num=10;
+Here value 10 is a Integer literal.
+
+char ch = 'A';
+Here A is a char literal
